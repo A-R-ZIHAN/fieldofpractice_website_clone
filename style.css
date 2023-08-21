@@ -1,5 +1,6 @@
 
 body{
+  
   background-color: #F2F2EB;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
 }
@@ -114,11 +115,18 @@ hr{
   justify-content: space-around;
   align-items: flex-start;
   margin: 0 auto; 
+
+  width: 100rem;
 }
 
 .cards-tag .left{
-  width: 69rem;
-  margin-left: 4%;
+  width: 60rem;
+
+
+}
+.cards-tag .left h1{
+  width: 50rem;
+
 }
 
 .cards-tag .right{
